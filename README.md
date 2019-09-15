@@ -46,7 +46,7 @@ Load msr module and mount the cpuset/freezer subsystems (one-time run after boot
 ```bash
 ./aff-executor ../conf/cache1 0-5 linux
 ```
-Clean cpuset and freezer after each scaff run
+Clean cpuset and freezer after each run
 
 ```bash
 ./cleanup.sh
