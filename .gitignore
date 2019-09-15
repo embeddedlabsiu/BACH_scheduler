@@ -1,0 +1,5 @@
+*.o
+~lock.*.ods#
+*.env
+*.geo
+*.rl
