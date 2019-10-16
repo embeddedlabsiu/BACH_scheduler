@@ -2,6 +2,8 @@
 
 A run-time system that orchestrates the execution of multi-threaded applications by incorporating user-defined scheduling policies, one of which is our bandwidth and cache aware scheduler. It operates in user-space on top of Linux-based operating systems.
 
+If you use this software, please cite our paper [Performance and Fairness Improvement on CMPs Considering Bandwidth and Cache Utilization](https://ieeexplore.ieee.org/document/8854176).
+
 ## Prerequisites
 
 Install libraries (Ubuntu)
@@ -39,9 +41,9 @@ Load msr module and mount the cpuset/freezer subsystems (one-time run after boot
 ```
 ## Running
 
--First argument: the configuration file where the workload is defined (check ../conf/ for more mixes)
--Second argument: the set of cores we want to dedicate to this workload (lscpu for more info)
--Third argument: the scheduling policy utilized to control the execution (options: linux, perf, fair, perf_fair, fair_bw_cache)
+- First argument: the configuration file where the workload is defined (check ../conf/ for more mixes)
+- Second argument: the set of cores we want to dedicate to this workload (lscpu for more info)
+- Third argument: the scheduling policy utilized to control the execution (options: linux, perf, fair, perf_fair, fair_bw_cache)
 
 ```bash
 ./aff-executor ../conf/cache1 0-5 linux
