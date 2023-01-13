@@ -2,7 +2,35 @@
 
 A run-time system that orchestrates the execution of multi-threaded applications by incorporating user-defined scheduling policies, one of which is our bandwidth and cache aware scheduler. It operates in user-space on top of Linux-based operating systems.
 
-If you use this software, please cite our paper [Performance and Fairness Improvement on CMPs Considering Bandwidth and Cache Utilization](https://ieeexplore.ieee.org/document/8854176).
+If you use this software, please cite our papers
+
+[Performance and Fairness Improvement on CMPs Considering Bandwidth and Cache Utilization](https://ieeexplore.ieee.org/document/8854176):
+```
+@article{marinakis2019performance,
+  title={Performance and fairness improvement on cmps considering bandwidth and cache utilization},
+  author={Marinakis, Theodoros and Anagnostopoulos, Iraklis},
+  journal={IEEE Computer Architecture Letters},
+  volume={18},
+  number={2},
+  pages={1--4},
+  year={2019},
+  publisher={IEEE}
+}
+```
+
+[A Pressure-Aware Policy for Contention Minimization on Multicore Systems](https://dl.acm.org/doi/full/10.1145/3524616)
+```
+@article{kundan2022pressure,
+  title={A Pressure-Aware Policy for Contention Minimization on Multicore Systems},
+  author={Kundan, Shivam and Marinakis, Theodoros and Anagnostopoulos, Iraklis and Kagaris, Dimitri},
+  journal={ACM Transactions on Architecture and Code Optimization (TACO)},
+  volume={19},
+  number={3},
+  pages={1--26},
+  year={2022},
+  publisher={ACM New York, NY}
+}
+```
 
 ## Prerequisites
 
